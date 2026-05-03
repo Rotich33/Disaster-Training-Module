@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Disaster Preparedness & Response Training</title>
+  <link rel="stylesheet" href="css/style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&family=Source+Sans+3:wght@300;400;600&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- HERO -->
+  <div class="hero">
+    <div class="hero-badge">BIT Group 9 — Training Module</div>
+    <h1>Disaster <span>Preparedness</span><br>& Response</h1>
+    <p>A comprehensive multimedia training module covering preparation, response, and recovery for common disaster scenarios.</p>
+    <div class="hero-stats">
+      <div class="stat"><div class="stat-num">3</div><div class="stat-label">Video Lessons</div></div>
+      <div class="stat"><div class="stat-num">5</div><div class="stat-label">Infographic Topics</div></div>
+      <div class="stat"><div class="stat-num">10</div><div class="stat-label">Quiz Questions</div></div>
+    </div>
+  </div>
+
+  <!-- NAV TABS -->
+  <nav class="nav-tabs">
+    <button class="tab-btn active" onclick="showTab('videos', this)">📹 Video Demos</button>
+    <button class="tab-btn" onclick="showTab('infographics', this)">📊 Infographics</button>
+    <button class="tab-btn" onclick="showTab('quiz', this)">✅ Quiz</button>
+  </nav>
+
+  <!-- ===== VIDEOS SECTION ===== -->
+  <div id="videos" class="section active">
+    <div class="section-title"><span>Video</span> Demonstrations</div>
+    <p class="section-subtitle">Watch these training videos to learn essential disaster preparedness skills.</p>
+    <div class="divider"></div>
+    <div class="video-grid">
+
+      <!-- VIDEO 1: Replace emergency_kit.mp4 with your actual video filename -->
+      <div class="video-card">
+        <div class="video-thumb">
+          <video controls>
+            <source src="videos/How to Prepare an Emergency Kit.mp4" type="video/mp4"/>
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class="video-info">
+          <span class="video-tag">Emergency Kit</span>
+          <h3>How to Build an Emergency Kit</h3>
+          <p>Learn what essential items to include in your family's disaster supply kit — water, food, first aid, and more.</p>
+          <div class="video-source">📌 Source: FEMA / Ready.gov</div>
+        </div>
+      </div>
+
+      <!-- VIDEO 2: Replace evacuation.mp4 with your actual video filename -->
+      <div class="video-card">
+        <div class="video-thumb">
+          <video controls>
+            <source src="videos/Prepare a Family Emergency Plan _ Disasters.mp4" type="video/mp4"/>
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class="video-info">
+          <span class="video-tag">Evacuation</span>
+          <h3>Creating a Family Evacuation Plan</h3>
+          <p>Step-by-step guidance on how to plan evacuation routes and meeting points for your household before disaster strikes.</p>
+          <div class="video-source">📌 Source: American Red Cross</div>
+        </div>
+      </div>
+
+      <!-- VIDEO 3: Replace firstaid.mp4 with your actual video filename -->
+       <div class="video-card">
+  <div class="video-thumb">
+    <video controls>
+      <source src="videos/How to Prepare for a Flood _ Disasters.mp4" type="video/mp4"/>
+      Your browser does not support the video tag.
+    </video>
+  </div>
+  <div class="video-info">
+    <span class="video-tag">Flood Safety</span>
+    <h3>How to Prepare for a Flood</h3>
+    <p>Essential flood preparedness tips including evacuation planning, sandbagging techniques, and how to protect your home and family before floodwaters rise.</p>
+    <div class="video-source">📌 Source: Sikana English</div>
+  </div>
+</div>
+ </div>  <!-- Close video-grid -->
+  </div>  <!-- Close VIDEOS SECTION -->
+
+    </div>  
+      
+  <!-- ===== INFOGRAPHICS SECTION ===== -->
+  <div id="infographics" class="section">
+    <div class="section-title"><span>Infographic</span> Guide</div>
+    <p class="section-subtitle">Visual quick-reference guides covering the three phases of disaster management.</p>
+    <div class="divider"></div>
+
+    <div class="phase-strip">
+      <div class="phase p1"><span class="phase-num">①</span>BEFORE — Prepare</div>
+      <div class="phase p2"><span class="phase-num">②</span>DURING — Respond</div>
+      <div class="phase p3"><span class="phase-num">③</span>AFTER — Recover</div>
+    </div>
+
+    <div class="info-grid">
+
+      <div class="info-card">
+        <div class="info-icon">🎒</div>
+        <h3>Emergency Kit Checklist</h3>
+        <ul class="info-list">
+          <li>3-day water supply (1 gallon/person/day)</li>
+          <li>Non-perishable food for 3 days</li>
+          <li>Battery-powered or hand-crank radio</li>
+          <li>Flashlight and extra batteries</li>
+          <li>First aid kit</li>
+          <li>Whistle to signal for help</li>
+          <li>Dust masks and plastic sheeting</li>
+          <li>Wrench or pliers to turn off utilities</li>
+          <li>Manual can opener</li>
+          <li>Local maps and cell phone charger</li>
+        </ul>
+      </div>
+
+      <div class="info-card orange">
+        <div class="info-icon">🚨</div>
+        <h3>During a Disaster: DO's</h3>
+        <ul class="info-list">
+          <li>Stay calm and follow your plan</li>
+          <li>Listen to official emergency broadcasts</li>
+          <li>Evacuate immediately if ordered</li>
+          <li>Stay away from floodwaters</li>
+          <li>Do NOT use candles (fire risk)</li>
+          <li>Check on elderly neighbors</li>
+          <li>Use text messages — calls may overload</li>
+          <li>Stay indoors if instructed (tornado/chemical)</li>
+          <li>Document damage for insurance</li>
+        </ul>
+      </div>
+
+      <div class="info-card green">
+        <div class="info-icon">🏠</div>
+        <h3>After a Disaster: Recovery Steps</h3>
+        <ul class="info-list">
+          <li>Only return home when authorities say it's safe</li>
+          <li>Wear protective gear (gloves, boots)</li>
+          <li>Check for gas leaks before entering</li>
+          <li>Document all property damage</li>
+          <li>Avoid tap water until declared safe</li>
+          <li>Register with local disaster relief agency</li>
+          <li>Apply for FEMA assistance if eligible</li>
+          <li>Watch for signs of stress and seek help</li>
+        </ul>
+      </div>
+
+      <div class="info-card yellow">
+        <div class="info-icon">🗺️</div>
+        <h3>Family Emergency Plan</h3>
+        <ul class="info-list">
+          <li>Designate an out-of-town contact person</li>
+          <li>Identify two evacuation routes from home</li>
+          <li>Choose two family meeting locations</li>
+          <li>Know your local emergency alert system</li>
+          <li>Keep copies of important documents</li>
+          <li>Plan for pets and special needs members</li>
+          <li>Practice the plan every 6 months</li>
+          <li>Know how to turn off home utilities</li>
+        </ul>
+      </div>
+
+      <div class="info-card blue">
+        <div class="info-icon">⚡</div>
+        <h3>Types of Disasters to Know</h3>
+        <ul class="info-list">
+          <li>🌊 Floods — most common natural disaster</li>
+          <li>🌀 Hurricanes — high winds + storm surge</li>
+          <li>🌍 Earthquakes — Drop, Cover, Hold On</li>
+          <li>🔥 Wildfires — evacuate early, don't wait</li>
+          <li>🌪️ Tornadoes — seek interior room, lowest floor</li>
+          <li>❄️ Winter Storms — stay indoors, conserve heat</li>
+          <li>☣️ Hazmat Incidents — shelter-in-place</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ===== QUIZ SECTION ===== -->
+  <div id="quiz" class="section">
+    <div class="section-title"><span>Knowledge</span> Quiz</div>
+    <p class="section-subtitle">Test what you've learned. Answer all 10 questions to receive your score.</p>
+    <div class="divider"></div>
+
+    <div class="quiz-meta">
+      <span class="quiz-counter" id="quizCounter">Question 1 of 10</span>
+      <span class="quiz-score-display" id="scoreDisplay">Score: 0</span>
+    </div>
+    <div class="quiz-progress-bar">
+      <div class="quiz-progress-fill" id="progressFill" style="width:10%"></div>
+    </div>
+
+    <div id="questionArea"></div>
+    <button class="next-btn" id="nextBtn" onclick="nextQuestion()">Next Question →</button>
+
+    <div class="result-card" id="resultCard">
+      <div class="result-score" id="resultScore"></div>
+      <div class="result-label">Final Score</div>
+      <div class="result-msg" id="resultMsg"></div>
+      <button class="restart-btn" onclick="restartQuiz()">↺ Retake Quiz</button>
+    </div>
+  </div>
+
+  <footer>
+    BIT Group 9 — Disaster Preparedness & Response Training Module &nbsp;
+  </footer>
+
+  <script src="js/script.js"></script>
+  
+</body>
+</html>
